@@ -1,0 +1,28 @@
+{
+    "name": "burlacu-web/cms-content-handling",
+    "version": "1.0.0",
+    "description": "Offer tools to easily create CMS Blocks and Pages with content from HTML file",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-cms": ">=104.0.*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Vasilii Burlacu",
+            "email": "burlacu.vasilii@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BurlacuWeb\\CmsContentHandling\\": ""
+        }
+    }
+}
